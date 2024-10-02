@@ -90,20 +90,3 @@ Each task is a folder in `MLAgentBench/benchmarks/`, under which the `env/` fold
 
 We currently support variants of our research agent along with langchain and autogpt agents. See `run_experiments.sh` for their commands.
 
-# Results
-Success Rate, i.e. the percentages of runs that achieve more than 10% improvement at the
-last step over the average performance of the baseline in starter code:
-![](figs/final_improve_10.png)
-
-
-
-Average Improvement over the baseline in starter code among the runs that made a valid
-submission at the last step:
-![](figs/final_improve.png)
-
-See all logs here: https://github.com/q-hwang/MLAgentBench_logs
-
-# Interactive Mode (Under construction)
-
-You can also specify tasks interactively to the research agent by running `research_agent_interactive.sh`, or ideally as a vscode extension.
-
