@@ -3,7 +3,7 @@
 all_tasks="cifar10 imdb"
 log_dir=final_exp_logs
 models="claude2.1 gpt-4-0125-preview gemini-pro"
-
+##
 for model in $models
 do
     for task in $all_tasks
