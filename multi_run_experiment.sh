@@ -25,7 +25,7 @@ echo "n_devices: $n_device"
 echo "devcies: ${devices[@]}"
 echo "extra_args: $extra_args"
 
-echo "Logs will be saved to $folder"
+echo "Logs saved to $folder"
 
 for i in "${devices[@]}"
 do 
