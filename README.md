@@ -27,7 +27,7 @@ sudo apt-get install unzip
 
 Finally, put API keys under the root directory of this repo (or wherever you run scripts from). Currently, we support OpenAI (openai_api_key.txt in the format of organization:APIkey), Claude (claude_api_key.txt), and CRFM API (crfm_api_key.txt). To use an AutoGPT agent, setup the directory as described [here](https://docs.agpt.co/setup/).
 
-Update: We support gemini pro and huggingface now! To run gemini, fill in PROJECT_ID in LLM.py to your project id. To run huggingface, specifiy model as huggingface/<org name>/<model name>.
+Update: We support huggingface now! To run huggingface, specifiy model as huggingface/<org name>/<model name>.
 
 # Quick Start
 
