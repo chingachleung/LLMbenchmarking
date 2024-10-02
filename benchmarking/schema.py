@@ -15,7 +15,7 @@ class EnhancedJSONEncoder(json.JSONEncoder):
             return vars(o)
 
         return super().default(o)
-
+$
 class TooLongPromptError(Exception):
     pass
 class LLMError(Exception):
