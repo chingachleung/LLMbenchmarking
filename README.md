@@ -86,7 +86,3 @@ To run the benchmark systematically, we recommend the following workflow:
 
 Each task is a folder in `MLAgentBench/benchmarks/`, under which the `env/` folder contains files that the research agent will see at the beginning, and `script/` folder contains additional hidden files such as `prepare.py` for downloading data and `eval.py` for evaluation.
 
-# Agents
-
-We currently support variants of our research agent along with langchain and autogpt agents. See `run_experiments.sh` for their commands.
-
